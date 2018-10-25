@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.zym.soybean.config.swagger.SwaggerConfiguration,\
+  org.zym.soybean.bean.event.EventPublisher,\
+  org.zym.soybean.config.exception.handler.CommonExceptionHandler,\
+  org.zym.soybean.interceptor.RateLimiterInterceptor,\
+  org.zym.soybean.config.CommonConfiguration,\
+  org.zym.soybean.config.RedisConfiguration
